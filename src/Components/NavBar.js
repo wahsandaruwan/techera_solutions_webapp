@@ -4,11 +4,11 @@ import NavMenu from "./NavMenu"
 const NavBar = () => {
     return (
         <>
-            <nav className="navbar">
+            <nav className="nav-bar">
                 <div className="logo">
                     <img src="/assets/logo.png" alt="" />
                 </div>
-                <NavMenu />
+                {/* <NavMenu /> */}
                 <div className="menu-toggle-btn"><BiMenuAltLeft /></div>
             </nav>
         </>
