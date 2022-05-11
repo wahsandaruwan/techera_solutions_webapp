@@ -1,6 +1,7 @@
 import Hero from "./Components/Hero";
 import NavBar from "./Components/NavBar";
 import ParticlesBg from "./Components/ParticlesBg";
+import Samp from "./Components/Samp";
 
 const App = () => {
   return (
@@ -8,6 +9,7 @@ const App = () => {
       <ParticlesBg />
       <NavBar />
       <Hero />
+      <Samp />
     </>
   );
 }
