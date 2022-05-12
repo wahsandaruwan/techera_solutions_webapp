@@ -1,5 +1,4 @@
 import { BiMenuAltLeft } from "react-icons/bi"
-import NavMenu from "./NavMenu"
 
 const NavBar = () => {
     return (
@@ -8,7 +7,6 @@ const NavBar = () => {
                 <div className="logo">
                     <img src="/assets/logo.png" alt="" />
                 </div>
-                {/* <NavMenu /> */}
                 <div className="menu-toggle-btn"><BiMenuAltLeft /></div>
             </nav>
         </>
