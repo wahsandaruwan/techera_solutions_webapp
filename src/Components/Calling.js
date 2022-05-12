@@ -1,18 +1,4 @@
-import { AnimationOnScroll } from "react-animation-on-scroll"
-import "animate.css/animate.min.css"
-
-import { useEffect } from "react"
-
-// Scroll Animation
-import Aos from "aos"
-import "aos/dist/aos.css"
-
 const Calling = () => {
-    // Global Animations
-    useEffect(() => {
-        Aos.init({ duration: 2000 })
-    }, [])
-
     return (
         <>
             <div className="section calling-section">

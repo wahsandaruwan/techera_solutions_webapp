@@ -1,18 +1,4 @@
-import { AnimationOnScroll } from "react-animation-on-scroll"
-import "animate.css/animate.min.css"
-
-import { useEffect } from "react"
-
-// Scroll Animation
-import Aos from "aos"
-import "aos/dist/aos.css"
-
 const Hero = () => {
-    // Global Animations
-    useEffect(() => {
-        Aos.init({ duration: 2000 })
-    }, [])
-
     return (
         <>
             <div className="section hero-section" id="hero">
@@ -49,7 +35,7 @@ const Hero = () => {
                         END TO END <span
                             data-aos="fade"
                             data-aos-offset="200"
-                            data-aos-delay="1500"
+                            data-aos-delay="2500"
                             data-aos-duration="1000"
                             data-aos-easing="ease-in-out"
                             data-aos-mirror="false"
