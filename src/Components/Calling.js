@@ -56,7 +56,7 @@ const Calling = () => {
                         data-aos-easing="ease-in-out"
                         data-aos-mirror="true"
                         data-aos-once="false"
-                        href="#" className="main-btn">
+                        href="https://google.com" className="main-btn">
                         Let's Connect</a>
                 </div>
             </div>

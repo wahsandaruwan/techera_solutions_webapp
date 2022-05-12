@@ -76,7 +76,7 @@ const Hero = () => {
                             data-aos-once="true">
                             GET</span> STARTED!
                     </h3>
-                    <a href="#" className="main-btn">Get Started</a>
+                    <a href="https://google.com" className="main-btn">Get Started</a>
                 </div>
             </div>
         </>
