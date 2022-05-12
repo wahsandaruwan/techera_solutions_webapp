@@ -9,7 +9,7 @@ const Process = () => {
                     processDetails.map((process, index) => {
                         const { id, details } = process
                         return (
-                            <Step key={index} cls={`circle-${id}`} no={id} details={details} />
+                            <Step indexVal={index} cls={`circle-${id}`} no={id} details={details} key={index} />
                         )
                     })
                 }
