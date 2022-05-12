@@ -42,15 +42,15 @@ a {
   background-color: #597eff;
   margin-top: 20px;
   color: #ffffff;
-  padding: 20px 40px;
+  padding: 25px 50px;
   font-size: 1rem;
   border-radius: 20px;
   transition: all 1s ease-in-out;
 }
 
 .main-btn:hover {
-  background-color: #ffffff;
-  color: #201d1d;
+  background-color: #ffffff !important;
+  color: #201d1d !important;
 }
 
 /* -------------Navigation Bar------------- */
@@ -70,7 +70,7 @@ a {
 
 /* ------Logo------ */
 .nav-bar .logo {
-  flex-basis: 8%;
+  flex-basis: 10%;
   min-width: 120px;
   padding: 5px;
 }
@@ -103,7 +103,7 @@ a {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin: 200px 100px 100px 100px;
+  margin: 200px 100px 80px 100px;
   position: relative;
   z-index: 98;
 }
@@ -111,20 +111,20 @@ a {
 .hero-section .hero-main-content .hero-main-txt {
   text-align: center;
   color: #ffffff;
-  font-size: 3.5rem;
+  font-size: 4.5rem;
   margin-top: 10px;
   font-family: 'Dancing Script';
-  font-weight: 500;
-}
-
-.hero-section .hero-main-content .hero-main-txt > span{
-  font-size: 5rem;
-  color: #597eff;
   font-weight: 600;
 }
 
+.hero-section .hero-main-content .hero-main-txt > span{
+  font-size: 6rem;
+  color: #597eff;
+  font-weight: 700;
+}
+
 .hero-section .hero-main-content .hero-main-txt:nth-child(2){
-  max-width: 1000px;
+  max-width: 1200px;
 }
 
 /* ------Hero Sub Content------ */
@@ -137,13 +137,13 @@ a {
 }
 
 .hero-section .hero-sub-content .hero-sub-txt{
-  font-size: 2rem;
+  font-size: 2.5rem;
   color: #ffffff;
   font-weight: 500;
 }
 
 .hero-section .hero-sub-content .hero-sub-txt > span{
-  font-size: 2.7rem;
+  font-size: 3.5rem;
   color: #597eff;
   font-weight: 600;
 }
