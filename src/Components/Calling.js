@@ -35,10 +35,10 @@ const Calling = () => {
                             NOW!</span>
                     </h1>
                     <a
-                        data-aos="fade-down"
+                        data-aos="zoom-out-right"
                         data-aos-offset="0"
                         data-aos-delay="500"
-                        data-aos-duration="1000"
+                        data-aos-duration="2000"
                         data-aos-easing="ease-in-out"
                         data-aos-mirror="true"
                         data-aos-once="false"
