@@ -199,7 +199,22 @@ a {
   max-height: 400px;
   border-radius: 50%;
   border: 3px solid #597eff;
+  cursor: pointer;
+  transition: all 1s ease-in-out !important;
   /* animation: scaleUp 1s ease-in-out infinite alternate; */
+}
+
+.process-section .step:hover{
+  background-color: #597eff;
+}
+
+.process-section .step:hover .no,
+.process-section .step:hover .details,
+.process-section .step.circle-02:hover .no,
+.process-section .step.circle-02:hover .details,
+.process-section .step.circle-03:hover .no,
+.process-section .step.circle-03:hover .details{
+  color: #201d1d;
 }
 
 /* @keyframes scaleUp{
