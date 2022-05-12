@@ -1,7 +1,18 @@
 import { AnimationOnScroll } from "react-animation-on-scroll"
 import "animate.css/animate.min.css"
 
+import { useEffect } from "react"
+
+// Scroll Animation
+import Aos from "aos"
+import "aos/dist/aos.css"
+
 const Calling = () => {
+    // Global Animations
+    useEffect(() => {
+        Aos.init({ duration: 2000 })
+    }, [])
+
     return (
         <>
             <div className="section calling-section">
@@ -9,11 +20,44 @@ const Calling = () => {
                     <h1>Hello Mister Champion!</h1>
                 </AnimationOnScroll> */}
                 <div className="calling-content">
-                    <h1 className="calling-txt">
-                        SCHEDULE A <span>CALL, </span>
-                        WITH US <span>NOW!</span>
+                    <h1
+                        data-aos="fade-up"
+                        data-aos-offset="200"
+                        data-aos-delay="500"
+                        data-aos-duration="1000"
+                        data-aos-easing="ease-in-out"
+                        data-aos-mirror="true"
+                        data-aos-once="false"
+                        className="calling-txt">
+                        SCHEDULE A <span
+                            data-aos="fade"
+                            data-aos-offset="200"
+                            data-aos-delay="1500"
+                            data-aos-duration="1000"
+                            data-aos-easing="ease-in-out"
+                            data-aos-mirror="false"
+                            data-aos-once="false">
+                            CALL, </span>
+                        WITH US <span
+                            data-aos="fade"
+                            data-aos-offset="200"
+                            data-aos-delay="1500"
+                            data-aos-duration="1000"
+                            data-aos-easing="ease-in-out"
+                            data-aos-mirror="false"
+                            data-aos-once="false">
+                            NOW!</span>
                     </h1>
-                    <a href="#" className="main-btn">Let's Connect</a>
+                    <a
+                        data-aos="fade-down"
+                        data-aos-offset="0"
+                        data-aos-delay="500"
+                        data-aos-duration="1000"
+                        data-aos-easing="ease-in-out"
+                        data-aos-mirror="true"
+                        data-aos-once="false"
+                        href="#" className="main-btn">
+                        Let's Connect</a>
                 </div>
             </div>
         </>
